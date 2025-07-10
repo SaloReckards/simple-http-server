@@ -50,7 +50,7 @@ public class HttpServer {
 
             String line;
             while ((line = in.readLine()) != null && !line.isEmpty()) {
-                 System.out.println(line);
+                System.out.println(line);
             }
 
             if (Files.exists(filePath) && !Files.isDirectory(filePath)) {
